@@ -1,0 +1,2008 @@
+/*=====================================================
+            BLUE THEME OVERRIDE
+======================================================*/
+
+/* Section Backgrounds */
+#agm-hero,
+#agm-strategy,
+#agm-performance,
+#agm-challenges,
+#agm-outcome{
+
+    background:#F8FBFF;
+
+}
+
+#agm-overview,
+#agm-creative,
+#agm-audience-comparison,
+#agm-improvements,
+#agm-tools{
+
+    background:#ffffff;
+
+}
+
+/* Cards */
+
+.agm-info-card,
+.agm-strategy-card,
+.agm-copy-box,
+.agm-performance-card,
+.agm-audience-card,
+.agm-insight-item,
+.agm-challenge-card,
+.agm-improvement-card,
+.agm-summary-card,
+.agm-outcome-card,
+.next-project-card{
+
+    background:#ffffff;
+    border:2px solid #F57C00;
+
+}
+
+/* Highlight Boxes */
+
+.agm-creative-note,
+.agm-performance-summary,
+.agm-outcome-note,
+.agm-insights-box{
+
+    background:#EFF6FF;
+    border-left:5px solid #F57C00;
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+
+}
+
+/* Blue Buttons */
+
+.agm-primary-btn{
+
+    background:#F57C00;
+
+}
+
+.agm-primary-btn:hover{
+
+    background:#E65100;
+
+}
+
+/* Blue Pills */
+
+.agm-badge,
+.agm-audience-tag,
+.agm-insights-header span,
+.next-label{
+
+    background:#F57C00;
+    color:#ffffff;
+
+}
+
+/* Tool Tags */
+
+.agm-tool{
+
+    background:#ffffff;
+    color:#F57C00;
+    border:2px solid #2563EB;
+
+}
+
+.agm-tool:hover{
+
+    background:#F57C00;
+    color:#ffffff;
+
+}
+
+/* Icons */
+
+.agm-challenge-icon,
+.agm-improvement-icon{
+
+    background:#DBEAFE;
+    color:#F57C00;
+
+}
+
+/* Headings */
+
+.agm-info-card h4,
+.agm-copy-box h3,
+.agm-insight-item h4,
+.agm-performance-card h3,
+.agm-outcome-item h3{
+
+    color:#F57C00;
+
+}
+
+/* Summary values */
+
+.agm-summary-item{
+
+    background:#EFF6FF;
+    border:1px solid #F57C00;
+
+}
+
+.agm-summary-item strong{
+
+    color:#F57C00;
+
+}
+
+/* Audience Values */
+
+.agm-audience-card span{
+
+    color:#F57C00;
+
+}
+
+/* Next Case Study Arrow */
+
+.next-arrow{
+
+    color:#F57C00;
+
+}
+
+/* Hover Effects */
+
+.agm-info-card:hover,
+.agm-strategy-card:hover,
+.agm-performance-card:hover,
+.agm-audience-card:hover,
+.agm-challenge-card:hover,
+.agm-improvement-card:hover,
+.agm-insight-item:hover,
+.next-project-card:hover{
+
+    border-color:#E65100;
+
+}
+/*=====================================================
+            META ADS CASE STUDY
+======================================================*/
+
+:root{
+
+    --primary:#F57C00;
+    --primary-dark:#E65100;
+    --primary-light:#FFF4E8;
+    --primary-soft:#FFF8F1;
+    --primary-border:#FFD8A8;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#1F2937;
+}
+
+/*=====================================================
+                    COMMON
+======================================================*/
+
+.agm-wrapper{
+
+    max-width:1200px;
+    margin:0 auto;
+
+}
+
+.agm-heading{
+
+    text-align:center;
+    margin-bottom:70px;
+
+}
+
+.agm-heading span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:var(--primary-light);
+
+    color:#1F2937;
+
+    border-radius:30px;
+
+    font-size:14px;
+    font-weight:600;
+
+    letter-spacing:.5px;
+
+    margin-bottom:18px;
+
+}
+
+.agm-heading h2{
+
+    font-size:48px;
+    color:#1F2937;
+
+    margin-bottom:20px;
+
+}
+
+.agm-heading p{
+
+    max-width:820px;
+
+    margin:auto;
+
+    color:#555;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+}
+
+/*=====================================================
+                    HERO
+======================================================*/
+
+#agm-hero{
+
+    padding:120px 8%;
+
+    background:linear-gradient(135deg,#F8FCF8,var(--primary-soft));
+
+}
+
+#agm-hero .agm-wrapper{
+
+    display:grid;
+
+    grid-template-columns:1.2fr .8fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.agm-badge{
+
+    display:inline-block;
+
+    padding:10px 22px;
+
+    background:var(--primary-light);
+
+    color:var(--primary);
+
+    border-radius:30px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.agm-title{
+
+    font-size:58px;
+
+    line-height:1.2;
+
+    color:#1F2937;
+
+    margin-bottom:30px;
+
+}
+
+.agm-title span{
+
+    color:var(--primary);
+
+}
+
+.agm-description{
+
+    font-size:19px;
+
+    line-height:1.9;
+
+    color:#555;
+
+    margin-bottom:40px;
+
+}
+
+.agm-primary-btn{
+
+    display:inline-block;
+
+    padding:16px 36px;
+
+    background:var(--primary);
+
+    color:#fff;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.agm-primary-btn:hover{
+
+    background:var(--primary-dark);
+
+    transform:translateY(-3px);
+
+}
+
+.agm-summary-card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.08);
+
+}
+
+.agm-summary-card h3{
+
+    font-size:30px;
+
+    margin-bottom:30px;
+
+    color:#1F2937;
+
+}
+
+.agm-summary-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+.agm-summary-item{
+
+    background:#F8FAF9;
+
+    padding:20px;
+
+    border-radius:18px;
+
+}
+
+.agm-summary-item span{
+
+    display:block;
+
+    font-size:14px;
+
+    color:#777;
+
+    margin-bottom:8px;
+
+}
+
+.agm-summary-item strong{
+
+    color:#1F2937;
+
+    font-size:18px;
+
+}
+
+/*=====================================================
+                PROJECT OVERVIEW
+======================================================*/
+
+#agm-overview{
+
+    padding:110px 8%;
+
+    background:#fff;
+
+}
+
+.agm-overview-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin:70px 0;
+
+}
+
+.agm-info-card{
+
+    background:#F8FAF9;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.agm-info-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.agm-info-icon{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+
+}
+
+.agm-info-card h4{
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.agm-info-card p{
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+/*=====================================================
+                STRATEGY
+======================================================*/
+
+#agm-strategy{
+
+    padding:110px 8%;
+
+    background:var(--primary-soft);
+
+}
+
+.agm-strategy-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin:70px 0;
+
+}
+
+.agm-strategy-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.agm-strategy-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.agm-strategy-icon{
+
+    font-size:34px;
+
+    margin-bottom:18px;
+
+}
+
+.agm-strategy-card h3{
+
+    margin-bottom:18px;
+
+    color:#1F2937;
+
+}
+
+.agm-strategy-card ul{
+
+    padding-left:20px;
+
+}
+
+.agm-strategy-card li{
+
+    margin-bottom:12px;
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+/*=====================================================
+                IMAGE PREVIEW
+======================================================*/
+
+.agm-preview{
+
+    text-align:center;
+
+    margin-top:60px;
+
+}
+
+.agm-preview img{
+
+    width:70%;
+
+    max-width:700px;
+
+    border-radius:20px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.agm-preview img:hover{
+
+    transform:scale(1.02);
+
+}
+
+.agm-preview p{
+
+    margin-top:20px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*=====================================================
+                RESPONSIVE
+======================================================*/
+
+@media(max-width:992px){
+
+#agm-hero .agm-wrapper{
+
+grid-template-columns:1fr;
+
+}
+
+.agm-overview-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.agm-strategy-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.agm-title{
+
+font-size:46px;
+
+}
+
+.agm-preview img{
+
+width:90%;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.agm-heading h2{
+
+font-size:38px;
+
+}
+
+.agm-overview-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.agm-title{
+
+font-size:38px;
+
+}
+
+.agm-description{
+
+font-size:17px;
+
+}
+
+}
+/*=====================================================
+                CREATIVE STRATEGY
+======================================================*/
+
+#agm-creative{
+
+    padding:110px 8%;
+
+    background:#ffffff;
+
+}
+
+.agm-creative-layout{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:start;
+
+    margin-top:60px;
+
+}
+
+/*====================================
+        AD PREVIEW
+====================================*/
+
+.agm-creative-preview{
+
+    text-align:center;
+
+}
+
+.agm-creative-preview img{
+
+    width:100%;
+
+    max-width:420px;
+
+    border-radius:20px;
+
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+
+    transition:.35s;
+
+}
+
+.agm-creative-preview img:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.agm-creative-preview p{
+
+    margin-top:20px;
+
+    color:#666;
+
+    line-height:1.7;
+
+    font-size:15px;
+
+}
+
+/*====================================
+        RIGHT CONTENT
+====================================*/
+
+.agm-creative-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.agm-copy-box{
+
+    background:#F8FAF9;
+
+    padding:28px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+
+}
+
+.agm-copy-box h3{
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.agm-copy-box p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+.agm-copy-box ul{
+
+    padding-left:22px;
+
+    margin-top:10px;
+
+}
+
+.agm-copy-box li{
+
+    margin-bottom:12px;
+
+    color:#555;
+
+    line-height:1.7;
+
+}
+
+/*====================================
+        DESIGN APPROACH
+====================================*/
+
+.agm-creative-note{
+
+    margin-top:70px;
+
+    background:linear-gradient(135deg,#F7FCF8,var(--primary-soft));
+
+    border-left:5px solid var(--primary);
+
+    padding:40px;
+
+    border-radius:20px;
+
+}
+
+.agm-creative-note h3{
+
+    font-size:28px;
+
+    color:#1F2937;
+
+    margin-bottom:18px;
+
+}
+
+.agm-creative-note p{
+
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-creative-layout{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .agm-creative-preview img{
+
+        max-width:380px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #agm-creative{
+
+        padding:80px 6%;
+
+    }
+
+    .agm-copy-box{
+
+        padding:24px;
+
+    }
+
+    .agm-creative-note{
+
+        padding:30px;
+
+    }
+
+}
+/*=====================================================
+                CAMPAIGN PERFORMANCE
+======================================================*/
+
+#agm-performance{
+
+    padding:110px 8%;
+    background:var(--primary-soft);
+
+}
+
+/*====================================
+        PERFORMANCE GRID
+====================================*/
+
+.agm-performance-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin:60px 0;
+
+}
+
+.agm-performance-card{
+
+    background:#ffffff;
+
+    padding:35px 25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.3s ease;
+
+}
+
+.agm-performance-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.10);
+
+}
+
+.agm-performance-card h3{
+
+    font-size:34px;
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+    font-weight:700;
+
+}
+
+.agm-performance-card span{
+
+    color:#666;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+/*====================================
+        PERFORMANCE IMAGE
+====================================*/
+
+.agm-performance-image{
+
+    text-align:center;
+
+    margin-top:70px;
+
+}
+
+.agm-performance-image img{
+
+    width:90%;
+
+    max-width:900px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.10);
+
+    transition:.3s;
+
+}
+
+.agm-performance-image img:hover{
+
+    transform:scale(1.01);
+
+}
+
+.agm-performance-image p{
+
+    margin-top:20px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+/*====================================
+        PERFORMANCE SUMMARY
+====================================*/
+
+.agm-performance-summary{
+
+    margin-top:70px;
+
+    background:#ffffff;
+
+    border-left:5px solid var(--primary);
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+}
+
+.agm-performance-summary h3{
+
+    color:#1F2937;
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+}
+
+.agm-performance-summary ul{
+
+    padding-left:22px;
+
+}
+
+.agm-performance-summary li{
+
+    margin-bottom:18px;
+
+    color:#555;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+.agm-performance-summary strong{
+
+    color:var(--primary);
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-performance-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .agm-performance-image img{
+
+        width:100%;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #agm-performance{
+
+        padding:80px 6%;
+
+    }
+
+    .agm-performance-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .agm-performance-card h3{
+
+        font-size:30px;
+
+    }
+
+    .agm-performance-summary{
+
+        padding:30px;
+
+    }
+
+}
+/*=====================================================
+            AUDIENCE COMPARISON
+======================================================*/
+
+#agm-audience-comparison{
+
+    padding:110px 8%;
+    background:#ffffff;
+
+}
+
+/*====================================
+        COMPARISON GRID
+====================================*/
+
+.agm-audience-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    margin-top:60px;
+
+}
+
+.agm-audience-card{
+
+    background:#F8FAF9;
+    border-radius:22px;
+    padding:35px;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:.35s;
+
+}
+
+.agm-audience-card:hover{
+
+    transform:translateY(-6px);
+    box-shadow:0 18px 45px rgba(0,0,0,.10);
+
+}
+
+.agm-audience-card h3{
+
+    font-size:28px;
+    color:#1F2937;
+    margin-bottom:15px;
+
+}
+
+.agm-audience-tag{
+
+    display:inline-block;
+    padding:8px 18px;
+    background:var(--primary-light);
+    color:var(--primary);
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:30px;
+
+}
+
+/*====================================
+        METRICS
+====================================*/
+
+.agm-audience-card ul{
+
+    list-style:none;
+    padding:0;
+    margin:0;
+
+}
+
+.agm-audience-card li{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:14px 0;
+
+    border-bottom:1px solid #E8E8E8;
+
+}
+
+.agm-audience-card li:last-child{
+
+    border:none;
+
+}
+
+.agm-audience-card strong{
+
+    color:#333;
+    font-weight:600;
+
+}
+
+.agm-audience-card span{
+
+    color:var(--primary);
+    font-weight:700;
+
+}
+
+
+
+/*=====================================================
+                KEY INSIGHTS
+======================================================*/
+
+.agm-insights-box{
+
+    margin-top:70px;
+
+    padding:50px;
+
+    background:linear-gradient(135deg,var(--primary-soft),var(--primary-soft));
+
+    border-radius:24px;
+
+    border:1px solid var(--primary-border);
+
+}
+
+.agm-insights-header{
+
+    text-align:center;
+
+    margin-bottom:45px;
+
+}
+
+.agm-insights-header span{
+
+    display:inline-block;
+
+    background:var(--primary-light);
+
+    color:var(--primary);
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+
+}
+
+.agm-insights-header h3{
+
+    font-size:38px;
+
+    color:#1F2937;
+
+}
+
+.agm-insights-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.agm-insight-item{
+
+    background:#ffffff;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+}
+
+.agm-insight-item:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
+
+}
+
+.agm-insight-item h4{
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.agm-insight-item p{
+
+    color:#555;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:768px){
+
+    .agm-insights-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .agm-insights-box{
+
+        padding:35px 25px;
+
+    }
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-audience-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #agm-audience-comparison{
+
+        padding:80px 6%;
+
+    }
+
+    .agm-audience-card{
+
+        padding:28px;
+
+    }
+
+    .agm-audience-insights{
+
+        padding:30px;
+
+    }
+
+}
+/*=====================================================
+                CHALLENGES
+======================================================*/
+
+#agm-challenges{
+
+    padding:110px 8%;
+
+    background:var(--primary-soft);
+
+}
+
+/*====================================
+        CHALLENGE GRID
+====================================*/
+
+.agm-challenges-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+/*====================================
+        CHALLENGE CARD
+====================================*/
+
+.agm-challenge-card{
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.35s ease;
+
+    border-top:4px solid var(--primary);
+
+}
+
+.agm-challenge-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.10);
+
+}
+
+/*====================================
+        ICON
+====================================*/
+
+.agm-challenge-icon{
+
+    width:70px;
+    height:70px;
+
+    margin:0 auto 25px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:32px;
+
+    background:var(--primary-light);
+
+    border-radius:50%;
+
+}
+
+/*====================================
+        TITLE
+====================================*/
+
+.agm-challenge-card h3{
+
+    font-size:24px;
+
+    color:#1F2937;
+
+    margin-bottom:18px;
+
+}
+
+/*====================================
+        DESCRIPTION
+====================================*/
+
+.agm-challenge-card p{
+
+    color:#555;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-challenges-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/*=====================================================
+                WHAT I'D IMPROVE
+======================================================*/
+
+#agm-improvements{
+
+    padding:110px 8%;
+
+    background:#ffffff;
+
+}
+
+/*====================================
+        IMPROVEMENTS GRID
+====================================*/
+
+.agm-improvements-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-top:60px;
+
+}
+
+/*====================================
+        IMPROVEMENT CARD
+====================================*/
+
+.agm-improvement-card{
+
+    background:#F8FAF9;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+    transition:.35s ease;
+
+    border-top:4px solid var(--primary);
+
+}
+
+.agm-improvement-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.10);
+
+}
+
+/*====================================
+        ICON
+====================================*/
+
+.agm-improvement-icon{
+
+    width:70px;
+
+    height:70px;
+
+    background:var(--primary-light);
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    margin-bottom:25px;
+
+}
+
+/*====================================
+        TITLE
+====================================*/
+
+.agm-improvement-card h3{
+
+    color:#1F2937;
+
+    font-size:24px;
+
+    margin-bottom:18px;
+
+}
+
+/*====================================
+        DESCRIPTION
+====================================*/
+
+.agm-improvement-card p{
+
+    color:#555;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-improvements-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/*=====================================================
+                TOOLS
+======================================================*/
+
+#agm-tools{
+
+    padding:50px 8% 70px;
+
+    background:#ffffff;
+
+}
+
+.agm-tools-list{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:30px;
+
+}
+
+.agm-tool{
+
+    padding:10px 20px;
+
+    background:#F4F8F5;
+
+    color:var(--primary);
+
+    border:1px solid var(--primary-border);
+
+    border-radius:40px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.3s ease;
+
+}
+
+.agm-tool:hover{
+
+    background:var(--primary);
+
+    color:#ffffff;
+
+    transform:translateY(-2px);
+
+}
+
+@media(max-width:768px){
+
+    #agm-tools{
+
+        padding:40px 6% 60px;
+
+    }
+
+    .agm-tools-list{
+
+        gap:10px;
+
+    }
+
+    .agm-tool{
+
+        padding:9px 18px;
+
+        font-size:14px;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .agm-tools-list{
+
+        justify-content:center;
+
+    }
+
+}
+/*=====================================================
+                PROJECT OUTCOME
+======================================================*/
+
+#agm-outcome{
+
+    padding:100px 8%;
+
+    background:linear-gradient(135deg,var(--primary-soft),var(--primary-soft));
+
+}
+
+/*====================================
+        SUMMARY CARD
+====================================*/
+
+.agm-outcome-card{
+
+    margin-top:60px;
+
+    background:#ffffff;
+
+    border-radius:25px;
+
+    padding:45px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.agm-outcome-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.agm-outcome-item{
+
+    text-align:center;
+
+}
+
+.agm-outcome-item h3{
+
+    font-size:34px;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+}
+
+.agm-outcome-item span{
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+/*====================================
+        NOTE
+====================================*/
+
+.agm-outcome-note{
+
+    margin-top:50px;
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    border-left:5px solid var(--primary);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+}
+
+.agm-outcome-note h3{
+
+    color:#1F2937;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+}
+
+.agm-outcome-note p{
+
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:17px;
+
+}
+
+/*====================================
+        RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+    .agm-outcome-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #agm-outcome{
+
+        padding:80px 6%;
+
+    }
+
+    .agm-outcome-card{
+
+        padding:30px;
+
+    }
+
+    .agm-outcome-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .agm-outcome-note{
+
+        padding:28px;
+
+    }
+
+}
+/*=========================================
+        NEXT CASE STUDY
+=========================================*/
+
+#next-case-study{
+
+    padding:90px 8%;
+
+    background:#F8FAFC;
+
+}
+
+.next-project-container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.next-label{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    background:#EAF4FF;
+
+    color:#3366E8;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.next-project-container h2{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+    color:#1F2937;
+
+}
+
+.next-project-container p{
+
+    color:#666;
+
+    margin-bottom:45px;
+
+}
+
+.next-project-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:30px 40px;
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    text-decoration:none;
+
+    color:#1F2937;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.next-project-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+
+}
+
+.next-project-card h3{
+
+    font-size:30px;
+
+    margin-bottom:8px;
+
+}
+
+.next-project-card span{
+
+    color:#666;
+
+}
+
+.next-arrow{
+
+    font-size:42px;
+
+    color:#3366E8;
+
+    transition:.3s;
+
+}
+
+.next-project-card:hover .next-arrow{
+
+    transform:translateX(8px);
+
+}
+.insta-showcase-link{
+
+    margin-top:40px;
+    text-align:center;
+
+}
+
+.insta-showcase-link p{
+
+    color:#666;
+    margin-bottom:18px;
+    font-size:17px;
+
+}
+
+.insta-view-btn{
+
+    display:inline-block;
+    padding:14px 30px;
+    background:#F57C00;
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.insta-view-btn:hover{
+
+    background:#E65100;
+    transform:translateY(-3px);
+
+}
